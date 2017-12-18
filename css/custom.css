@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+html,
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #ffffff;
+  color: #545454;
+  font-size: 100%;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #35464e;
+}
+
+p {
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 26px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.section-header {
+  margin-top: 80px;
+  margin-bottom: 60px;
+  text-align: center;
+  color: #3a7bd5;
+  font-size: 2.5em;
+}
+
+/* Main header */
+
+.intro {
+  background: -webkit-linear-gradient(left, #3a7bd5, #00d2ff);
+  background: -moz-linear-gradient(left, #3a7bd5, #00d2ff);
+  background: -o-linear-gradient(left, #3a7bd5, #00d2ff);
+  background: linear-gradient(to right, #3a7bd5, #00d2ff);
+  display: table;
+  width: 100%;
+  height: 80%;
+  text-align: center;
+  color: white;
+}
+
+.intro .intro-body {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.intro .intro-body .brand-heading {
+  font-size: 75px;
+  color: white;
+}
+
+.intro .intro-body .sub-heading {
+  font-size: 30px;
+  color: #35464e;
+}
+
+.intro .intro-body .fa {
+  margin: 0 4px;
+}
+
+@media (max-width: 768px) {
+  .intro .intro-body .brand-heading {
+    font-size: 40px;
+  }
+  .intro .intro-body .sub-heading {
+    font-size: 22px;
+  }
+}
+
+.btn-custom {
+  text-decoration: none;
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 16px;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 2px solid #35464e;
+  color: #35464e;
+  background: transparent;
+}
+
+/* Intro section */
+
+.intro-section {
+  text-align: center;
+  padding: 80px 0 40px 0;
+}
+
+.intro-section h1 {
+  color: #00b0ff;
+}
+
+.intro-section p {
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  line-height: 30px;
+}
+
+hr.style1 {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  width: 250px;
+  margin-bottom: 30px;
+  margin-top: 60px;
+}
+
+/* Experience */
+
+.experience-img {
+  width: 175px;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.experience-header {
+  margin-bottom: 8px;
+}
+
+.experience-date {
+  margin: 8px 0;
+  font-style: italic;
+  color: grey;
+}
+
+.experience-text {
+  margin-top: 8px;
+}
+
+/* Logos */
+
+.img-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-container img {
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.img-container:hover img {
+  -webkit-transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  -o-transform: scale(1.15);
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+/* Portfolio item */
+
+.portfolio-banner {
+  background: -webkit-linear-gradient(left, #3a7bd5, #00d2ff);
+  background: -moz-linear-gradient(left, #3a7bd5, #00d2ff);
+  background: -o-linear-gradient(left, #3a7bd5, #00d2ff);
+  background: linear-gradient(to right, #3a7bd5, #00d2ff);
+  display: table;
+  width: 100%;
+  height: 45%;
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.portfolio-banner .portfolio-body {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.portfolio-banner .portfolio-body .brand-heading {
+  font-size: 35px;
+  color: white;
+}
+
+.portfolio-banner .portfolio-body .sub-heading {
+  font-size: 22px;
+  color: #35464e;
+}
+
+.portfolio-item {
+  margin-bottom: 60px;
+}
+
+.portfolio-item .portfolio-img {
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-item .portfolio-img img {
+  width: 80%;
+  max-width: 1200px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .portfolio-item .portfolio-img img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.portfolio-item .portfolio-btn {
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 12px 28px;
+  margin-bottom: 0;
+  font-size: 16px;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid white;
+  color: white;
+  background: #2098d1;
+  margin: 0 8px;
+}
+
+.portfolio-item .portfolio-btn:hover {
+  background: #166a92;
+}
+
+/* Footer */
+
+.footer {
+  margin-top: 80px;
+  height: 40px;
+}
+
