@@ -9,9 +9,6 @@
   <title>Joshua Simpson</title>
   <link rel="icon" href="favicon.ico?v=1.1">
 
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
   <!-- Custom CSS -->
   <link rel="stylesheet" href="css/grid.css">
   <link rel="stylesheet" href="css/custom.css">
@@ -20,25 +17,16 @@
 
 <body>
 
-  <!-- Main header -->
-  <div class="intro">
-    <div class="intro-body">
-      <h1 class="brand-heading reveal">JOSHUA SIMPSON</h1>
-      <h1 class="sub-heading reveal">Front-End / Back-End Developer</h1>
-      <br>
-      <br>
-      <a class="btn-custom reveal" href="https://github.com/simpsonjs" target="_blank">
-        <i class="fa fa-github"></i>Github
-      </a>
-      <a class="btn-custom reveal" href="mailto:joshuasimpson.dev@gmail.com" target="_blank">
-        <i class="fa fa-envelope-o"></i>Contact
-      </a>
-      <a class="btn-custom reveal" href="Joshua Simpson.pdf" target="_blank">
-        <i class="fa fa-file-text-o"></i>Resume
-      </a>
+  <header class="header">
+    <div class="text-box">
+      <h1 class="heading-primary">
+        <span class="heading-primary-main">Joshua Simpson</span>
+        <span class="heading-primary-sub">Full-Stack Developer</span>
+      </h1>
 
+      <a href="Joshua Simpson Resume.pdf" target="_blank" class="btn btn-white btn-animated">Download Resume</a>
     </div>
-  </div>
+  </header>
 
   <!-- Projects Section -->
   <div class="container-fluid">
@@ -238,19 +226,6 @@
 
   <!-- Footer -->
   <div class="footer"></div>
-
-  <!-- Scroll Reveal Plugin -->
-  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-
-  <script>
-    window.sr = ScrollReveal();
-    sr.reveal('.reveal', {
-      duration: 600,
-      scale: 0.3,
-      distance: '0px',
-      reset: false
-    }, 300);
-  </script>
 
 </body>
 
